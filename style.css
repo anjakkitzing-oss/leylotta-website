@@ -417,3 +417,18 @@ p{margin:0;color:var(--muted)}
 /* Hochformat/quadratischer Film (Wassernymphe) */
 .screen.nymphreel{max-width:620px}
 .screen.reel.nymphreel .frame{aspect-ratio:1/1}
+
+/* five cards: 3 on top, 2 centred below; tablet 2+2+1 centred; phone single column */
+.tickets.five{grid-template-columns:repeat(6,minmax(0,1fr))}
+.tickets.five>.tcard{grid-column:span 2}
+.tickets.five>.tcard:nth-child(4){grid-column:2/span 2}
+.tickets.five>.tcard:nth-child(5){grid-column:4/span 2}
+@media (max-width:1100px){
+  .tickets.five{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .tickets.five>.tcard,.tickets.five>.tcard:nth-child(4){grid-column:span 2}
+  .tickets.five>.tcard:nth-child(5){grid-column:2/span 2}
+}
+@media (max-width:700px){
+  .tickets.five{grid-template-columns:minmax(0,1fr)}
+  .tickets.five>.tcard,.tickets.five>.tcard:nth-child(4),.tickets.five>.tcard:nth-child(5){grid-column:auto}
+}
