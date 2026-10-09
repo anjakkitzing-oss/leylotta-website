@@ -464,3 +464,8 @@ p{margin:0;color:var(--muted)}
   .tickets.hl{grid-template-columns:minmax(0,1fr)}
   .tickets.hl>.tcard,.tickets.hl>.tcard:nth-child(4){grid-column:auto}
 }
+
+/* sieben Kästen: der letzte steht allein und wird zentriert */
+.tickets.three.seven>.tcard:last-child{grid-column:2}
+@media (max-width:1100px){.tickets.three.seven>.tcard:last-child{grid-column:1/-1;justify-self:center;width:calc(50% - 13px)}}
+@media (max-width:700px){.tickets.three.seven>.tcard:last-child{grid-column:auto;width:auto}}
