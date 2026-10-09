@@ -432,3 +432,35 @@ p{margin:0;color:var(--muted)}
   .tickets.five{grid-template-columns:minmax(0,1fr)}
   .tickets.five>.tcard,.tickets.five>.tcard:nth-child(4),.tickets.five>.tcard:nth-child(5){grid-column:auto}
 }
+
+/* ---- Show-Übersicht: Hauptshow als großer Kasten, die weiteren Acts darunter ---- */
+.tickets.hl{grid-template-columns:repeat(6,minmax(0,1fr))}
+.tickets.hl>.tcard{grid-column:span 2}
+.tickets.hl>.tcard.lead{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);
+  min-height:0;border:1px solid var(--gold);box-shadow:0 0 0 7px rgba(212,175,55,.06),0 24px 70px rgba(0,0,0,.5);
+  background:linear-gradient(135deg,rgba(107,18,32,.22),rgba(10,15,12,.2) 60%)}
+.tcard.lead .tcard-ph,.tcard.lead .tcard-ph>a,.tcard.lead .tcard-ph .frame{display:block;height:100%}
+.tcard.lead .tcard-ph .frame-in{aspect-ratio:auto;height:100%;min-height:clamp(360px,38vw,560px);
+  border-bottom:0;border-right:1px solid var(--burgundy)}
+.tcard.lead .tcard-body{padding:clamp(30px,4vw,60px);justify-content:center;align-items:flex-start;gap:18px;flex-grow:0}
+.tcard.lead .num{font-size:46px}
+.tcard.lead h3{font-size:clamp(36px,4.2vw,58px);line-height:1.04;text-shadow:0 0 30px rgba(140,20,38,.38)}
+.tcard.lead h3 a{color:var(--gold)}
+.tcard.lead h3 a:hover{color:#f2e6b8}
+.tcard.lead .it{font-size:clamp(19px,1.8vw,23px);color:var(--muted);margin-top:-8px}
+.tcard.lead p{font-size:17px;line-height:1.75;flex-grow:0}
+.tcard.lead .tcard-links{align-items:center;gap:26px;margin-top:10px}
+.tcard.lead .tcard-links .eyebrow{font-size:12px}
+.tcard.lead.linked:hover{transform:none}
+@media (max-width:1100px){
+  .tickets.hl{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .tickets.hl>.tcard:nth-child(4){grid-column:2/span 2}
+}
+@media (max-width:900px){
+  .tickets.hl>.tcard.lead{grid-template-columns:minmax(0,1fr)}
+  .tcard.lead .tcard-ph .frame-in{min-height:0;aspect-ratio:16/10;border-right:0;border-bottom:1px solid var(--burgundy)}
+}
+@media (max-width:700px){
+  .tickets.hl{grid-template-columns:minmax(0,1fr)}
+  .tickets.hl>.tcard,.tickets.hl>.tcard:nth-child(4){grid-column:auto}
+}
