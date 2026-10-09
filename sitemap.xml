@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.leylotta.com/</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://www.leylotta.com/show.html</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.leylotta.com/walkacts.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.leylotta.com/walkacts.html</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.leylotta.com/walkact-lucina.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.leylotta.com/walkact-waternymph.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.leylotta.com/walkact-daylight.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -15,7 +15,7 @@
   <url><loc>https://www.leylotta.com/datenschutz.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.leylotta.com/index-de.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://www.leylotta.com/show-de.html</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.leylotta.com/walkacts-de.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.leylotta.com/walkacts-de.html</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.leylotta.com/walkact-lucina-de.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.leylotta.com/walkact-waternymph-de.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.leylotta.com/walkact-daylight-de.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -32,4 +32,6 @@
   <url><loc>https://www.leylotta.com/show-entourage-de.html</loc><lastmod>2026-10-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.leylotta.com/show-lucina.html</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.leylotta.com/show-lucina-de.html</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.leylotta.com/walkact-entourage.html</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.leylotta.com/walkact-entourage-de.html</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
