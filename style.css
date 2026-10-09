@@ -95,7 +95,7 @@ p{margin:0;color:var(--muted)}
   background-image:repeating-linear-gradient(115deg,rgba(212,175,55,.05) 0,rgba(212,175,55,.05) 2px,transparent 2px,transparent 34px),
     radial-gradient(ellipse at 50% 35%,rgba(107,18,32,.35),transparent 65%)}
 .hero.photo::before{content:"";position:absolute;inset:0;background-image:var(--hero);
-  background-size:cover;background-position:var(--heropos,center);opacity:.5}
+  background-size:cover;background-position:var(--heropos,center);opacity:var(--heroop,.5)}
 .hero.photo::after{content:"";position:absolute;inset:0;
   background-image:radial-gradient(ellipse at 50% 35%,rgba(107,18,32,.4),transparent 62%),
     linear-gradient(180deg,rgba(10,15,12,.72),rgba(10,15,12,.4) 45%,rgba(10,15,12,.9))}
