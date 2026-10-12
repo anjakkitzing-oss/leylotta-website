@@ -469,3 +469,4 @@ p{margin:0;color:var(--muted)}
 .tickets.three.seven>.tcard:last-child{grid-column:2}
 @media (max-width:1100px){.tickets.three.seven>.tcard:last-child{grid-column:1/-1;justify-self:center;width:calc(50% - 13px)}}
 @media (max-width:700px){.tickets.three.seven>.tcard:last-child{grid-column:auto;width:auto}}
+.sec-head.reel-next{margin-top:clamp(60px,8vw,96px)}
