@@ -344,7 +344,7 @@ p{margin:0;color:var(--muted)}
 .sec.pt-tight{padding-top:clamp(34px,4.5vw,56px)}
 .pills{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;max-width:900px;margin:0 auto}
 
-/* Film im Goldrahmen (Aqua Lumières) */
+/* Film im Goldrahmen (Aqualumières) */
 .screen.reel{max-width:1100px}
 .screen.reel .frame{aspect-ratio:16/9}
 .reel .frame-in{background:#000}
