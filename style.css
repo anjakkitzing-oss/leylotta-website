@@ -472,3 +472,9 @@ p{margin:0;color:var(--muted)}
 
 /* ---- Bühnen & Festivals (Startseite) ---- */
 #references .reflists{max-width:860px;margin:36px auto 0}
+
+/* ---- Handy: Galeriebilder einzeln untereinander ---- */
+@media (max-width:700px){
+  .galrow{flex-direction:column;align-items:stretch}
+  .galrow .frame{flex:none!important;width:100%}
+}
