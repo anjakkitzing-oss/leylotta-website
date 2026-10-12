@@ -5,8 +5,8 @@ Keine Datenbank, kein Baukasten — reine HTML-Dateien, die überall laufen.
 
 ```
 index.html        Startseite
-about.html        About Ley Lotta
-circus.html       Circus Performance
+
+
 music.html        Music
 costumes.html     Costumes
 contact.html      Contact (Formular → E-Mail an info@leylotta.com)
