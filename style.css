@@ -478,3 +478,14 @@ p{margin:0;color:var(--muted)}
   .galrow{flex-direction:column;align-items:stretch}
   .galrow .frame{flex:none!important;width:100%}
 }
+
+/* Corsage Collection: Verkauft-Schild, Einleitung, Hochformat-Film */
+.coll-intro{margin:calc(clamp(34px,5vw,50px) * -.5) auto clamp(30px,4vw,44px)}
+.coll-intro p{font-size:clamp(17px,1.6vw,20px);color:var(--muted);font-style:italic}
+.frame-in .sold{position:absolute;z-index:2;top:12px;left:12px;padding:6px 13px 5px;
+  font-family:var(--serif);font-weight:600;font-size:11px;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--ink);background:rgba(107,18,32,.88);border:1px solid var(--gold);
+  box-shadow:0 2px 10px rgba(0,0,0,.45);pointer-events:none}
+.screen.reel.portrait{max-width:420px;width:100%}
+.screen.reel.portrait .frame{aspect-ratio:9/16}
+@media (max-width:700px){.frame-in .sold{top:8px;left:8px;font-size:10px;padding:5px 10px 4px}}
