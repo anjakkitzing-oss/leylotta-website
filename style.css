@@ -292,6 +292,8 @@ p{margin:0;color:var(--muted)}
 .quote .qname{display:block;font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
 .quote .qsrc{display:block;margin-top:5px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
   color:var(--ticket)}
+.quote.qwide{grid-column:1/-1}
+.quote.qwide>*{width:100%;max-width:880px;margin-left:auto;margin-right:auto}
 @media (min-width:1100px){.quotes{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
 /* ---- Google-Wertung ---- */
