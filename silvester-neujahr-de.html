@@ -41,12 +41,13 @@
     <h2 style="font-size:clamp(30px,4vw,46px)">Ihr Termin zum Jahreswechsel</h2>
     <p>Nennen Sie Datum, Ort und ungefähre Gästezahl — Sie bekommen zeitnah einen konkreten Vorschlag mit Angebot.</p>
     <p class="it">Lieber direkt? <a href="mailto:info@leylotta.com?subject=Silvester%20%2F%20Neujahrsempfang">info@leylotta.com</a></p>
-    <form class="form" id="enquiry" action="https://formsubmit.co/info@leylotta.com" method="POST">
-  <input type="hidden" name="_subject" value="Anfrage Silvester/Neujahr über leylotta.com">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_next" value="https://www.leylotta.com/danke-de.html">
+    <form class="form" id="enquiry" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="3ae967b7-d0cb-4613-8c70-f730a7132452">
+  <input type="hidden" name="from_name" value="leylotta.com">
+  <input type="hidden" name="subject" value="Anfrage Silvester/Neujahr über leylotta.com">
+  <input type="hidden" name="redirect" value="https://www.leylotta.com/danke-de.html">
   <input type="hidden" name="Quelle" value="Silvester-Neujahr-Seite">
-  <input type="text" name="_honey" style="display:none" tabindex="-1" aria-hidden="true">
+  <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" aria-hidden="true">
   <div class="two">
     <label for="f-first">Vorname<input id="f-first" name="First name" required></label>
     <label for="f-last">Nachname<input id="f-last" name="Last name" required></label>
@@ -65,7 +66,7 @@
     <span>Ich bin einverstanden, dass meine Angaben zur Beantwortung meiner Anfrage verwendet werden (<a href="datenschutz.html">Datenschutzerklärung</a>).</span></label>
   <button class="btn" type="submit">Termin anfragen</button>
   <p class="note">Geht direkt als E-Mail an info@leylotta.com — unverbindlich.</p>
-</form><script>(function(){var f=document.getElementById("enquiry");if(!f)return;var s=f.querySelector('input[name="_subject"]'),b=s.value;f.addEventListener("submit",function(){var n=[f.elements["First name"].value.trim(),f.elements["Last name"].value.trim()].join(" ").trim();s.value=n?b+" – "+n:b;});})();</script>
+</form><script>(function(){var f=document.getElementById("enquiry");if(!f)return;var s=f.querySelector('input[name="subject"]'),b=s.value;f.addEventListener("submit",function(){var n=[f.elements["First name"].value.trim(),f.elements["Last name"].value.trim()].join(" ").trim();s.value=n?b+" – "+n:b;});})();</script>
   </div>
   <div class="split-media"><div class="frame "><div class="frame-in"><img loading="lazy" src="img/show-wings-blue-mist.jpg" alt="Lucina mit blau leuchtenden LED-Flügeln im Nebel" style="object-position:50% 50%"><div class="cap">Lucina&#x27;s Light</div></div></div></div>
 </div></div></section></main>
