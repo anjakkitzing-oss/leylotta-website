@@ -504,3 +504,9 @@ p{margin:0;color:var(--muted)}
 main .split-text p,main .tcard-body p,main .qa p,main blockquote p,main .legal p,main .feature p,main .center.wide>p{text-align:left;-webkit-hyphens:manual;hyphens:manual}
 @media (min-width:761px){main .split-text p,main .tcard-body p,main .qa p,main blockquote p,main .legal p,main .feature p,main .center.wide>p{text-align:justify;text-align-last:left}}
 main .center.wide>p,main .feature p{align-self:stretch;margin-left:auto;margin-right:auto;width:100%}
+
+/* Fotonachweis (Urhebernennung) dezent unten rechts im Bild */
+.credit{position:absolute;right:7px;bottom:5px;z-index:3;font-family:var(--serif);font-size:11px;
+  line-height:1;letter-spacing:.03em;color:rgba(244,236,216,.62);text-shadow:0 1px 3px rgba(0,0,0,.85);
+  pointer-events:none;white-space:nowrap}
+.hero>.credit{position:absolute;right:12px;bottom:10px}
